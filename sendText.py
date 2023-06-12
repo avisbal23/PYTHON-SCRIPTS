@@ -12,8 +12,10 @@ client = Client(account_sid, auth_token)
 # Set message content 
 smsContent = '''...
 
-Hi, I love you. so much. 
-Te amo - good night. <3'''
+I'm getting tired baby, I love you...so much...
+Te amo con todo mi corazon!
+good night '''
+
 # Send message 
 message = client.messages.create(
   body=smsContent,
