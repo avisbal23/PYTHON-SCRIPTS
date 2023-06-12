@@ -22,4 +22,3 @@ message = client.messages.create(
   from_="+18445310674",
   to="+16786659558"
 )
-print(message.body)
